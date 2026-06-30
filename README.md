@@ -61,9 +61,6 @@ Importante: `flutter run` debe ejecutarse desde la raiz de la app Flutter:
 
 
 ```bash
-
-cd C:\\Users\\USER\\Desktop\\ybank
-
 flutter run
 
 ```
@@ -159,8 +156,7 @@ El backend vive en el proyecto hermano:
 
 
 ```text
-
-C:\\Users\\USER\\Desktop\\ybank-core-banking-api
+ybank-core-banking-api
 
 ```
 
@@ -396,7 +392,7 @@ Desde el backend:
 
 ```bash
 
-cd C:\\Users\\USER\\Desktop\\ybank-core-banking-api
+ybank-core-banking-api
 
 docker compose up -d --build
 
@@ -446,8 +442,6 @@ Reset local de base de datos:
 
 ```bash
 
-cd C:\\Users\\USER\\Desktop\\ybank-core-banking-api
-
 docker compose down -v
 
 docker compose up -d --build
@@ -466,7 +460,7 @@ Desde la app Flutter:
 
 ```bash
 
-cd C:\\Users\\USER\\Desktop\\ybank
+yorbank
 
 flutter pub get
 
